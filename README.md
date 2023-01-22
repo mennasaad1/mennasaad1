@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@mennasaad1 
-anuraghazra
-/
-anuraghazra
-Public
-Fork your own copy of anuraghazra/anuraghazra
-Code
-Issues
-39
-Pull requests
-4
-Actions
-Projects
-Security
-Insights
-anuraghazra/.github/workflows/peerlist.yml
-@anuraghazra
-anuraghazra Update peerlist.yml
-Latest commit 2b90b1f on Nov 24, 2021
- History
- 1 contributor
-42 lines (42 sloc)  1.4 KB
-
 name: 'peerlist-demo'
 on:
   workflow_dispatch:
@@ -71,18 +40,3 @@ jobs:
           text_color: ${{github.event.inputs.text_color}}
           bg_color: ${{github.event.inputs.bg_color}}
           branch: ${{github.event.inputs.branch}}
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-anuraghazra/peerlist.yml at 6e732d92945015e74a55de65dd5f517c0f1077ec · anuraghazra/anuraghazra
